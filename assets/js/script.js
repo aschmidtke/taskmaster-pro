@@ -108,7 +108,7 @@ var text = $(this).val();
 var status = $(this)
 .closest(".list-group")
 .attr("id")
-replace("list-", "");
+.replace("list-", "");
 var index = $(this)
 .closest(".list-group-item")
 .index();
